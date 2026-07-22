@@ -9631,18 +9631,18 @@ document.addEventListener('DOMContentLoaded', function() {
   // a code viewer sub-popup showing the blank template or original .dtsi.
   var GUIDE_HTML =
     '<h1>RGB Layer Setup Guide</h1>' +
-    '<p><em>The new RGB tool helps a lot with this.</em></p>' +
+    '<p><em>The new RGB tool helps streamline below, but if you want to undestand the code better feel free to read. Im hardly an amature with coding, this was my "first" project and 99% was written by co-pilot, so forgive my piss poor explanations, I just wanted to solder a keyboard.</em></p>' +
     '<p><strong>Any new layers get defined in <code>corne-rgb.dtsi</code>, along with an assigned color.</strong><br>' +
-    'New formats are defined below; we no longer have to use the &quot;standard&quot; ZMK formatting, and can add to the code much easier using these new syntaxes and variables.<br>' +
+    'New formats are defined below; we no longer have to use the &quot;standard&quot; ZMK formatting, and can add to the code easily using these new syntaxes and variables.<br>' +
     'A template is set up for your use in the appropriate areas within the <code>.dtsi</code> so you can better understand the layouts of this file.</p>' +
     '<p><button class="guide-file-btn" data-view-code="blank">&#128196; View Blank Template (corne-rgb-blank.dtsi)</button></p>' +
     '<hr>' +
     '<h2>Order of Operations</h2>' +
     '<ol>' +
-    '<li>Just <code>#define</code> a layer, the name doesn\'t matter. What\'s important is the number. This number is what ZMK relates the new variable (the new defined layer name) to the layers in the keymap.<br>' +
+    '<li>Just <code>#define</code> a layer, the name doesn\'t matter. What\'s important is the number. This number is what ZMK relates the new variable (the new defined layer name) to the layers in the keymap. (#define LAYER 1, is registered as 1)<br>' +
     '1a. Then <code>#define</code> a color for the &quot;layer&quot; (we are using a &quot;new&quot; define, RGB_LAYER), these will be used for our &quot;new&quot; colors and &quot;return&quot; colors.</li>' +
     '<li>Build your macros following the structure from the helpers, <strong>then</strong> build your hold-tap behavior, if making a momentary layer.</li>' +
-    '<li>Then you can use these new behaviors in ZMK Studio for &quot;hold-tap&quot; functions.</li>' +
+    '<li>Then you can use these new behaviors in ZMK Studio for &quot;hold-tap&quot; functions; OR, code them in your keymap.</li>' +
     '</ol>' +
     '<hr>' +
     '<h2>New Modular Structuring</h2>' +
