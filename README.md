@@ -7,4 +7,4 @@ RGB Layer Color Generator and Keymap Tool for ZMK keyboards.
 ![editor3](screenshot/ZMKPer-LayerColor_RGB_Tool_with_keymap_editor3.png)
 ![editor2](screenshot/ZMKPer-LayerColor_RGB_Tool_with_keymap_editor2.png)
 
-Visit the tool at: (https://ngxbeast-source.github.io/ZMK-Per-Layer-Color-and-Keymap-Editor/)
+Visit the tool at: ([https://ngxbeast-source.github.io/ZMK-Per-Layer-Color-and-Keymap-Editor/](https://ngxbeast-source.github.io/ZMK-Per-Layer-Color-RGB-and-Keymap-Editor/))
